@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --background: #fafafa;
+  --text: #4d4f62;
+  --lightgreen: #44d3d2;
+  --orange: #fcae4a;
+  --skyblue: #549ef2;
+}
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: var(--background);
+  font-family: "Poppins", sans-serif;
+  padding: 85px 32px 78px 32px;
+  text-align: center;
+  color: var(--text);
+}
+.sub-text {
+  font-size: 24px;
+  font-weight: 275;
+  line-height: 36px;
+  letter-spacing: 0.17px;
+}
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0.17px;
+}
+.about {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.1px;
+  margin-top: 16px;
+  opacity: 0.5;
+}
+.card {
+  width: 100%;
+  padding-bottom: 28px;
+  background-color: #ffffff;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  text-align: left;
+}
+.sky {
+  margin-top: 76px;
+}
+.card-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+.card-title-description {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 30px;
+  letter-spacing: 0.09px;
+  opacity: 50%;
+}
+.icon {
+  margin-top: 33px;
+  width: 57px;
+  height: 57px;
+  margin-left: auto;
+}
+.border {
+  width: 100%;
+  height: 2.5px;
+  background-color: var(--lightgreen);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-content {
+  margin-top: 27px;
+  padding: 0 28px;
+  display: flex;
+  flex-direction: column;
+}
